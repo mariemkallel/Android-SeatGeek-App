@@ -10,6 +10,6 @@ class EventPerformerRemoteToDataMapper @Inject constructor()  {
     fun map(input: PerformerRemoteModel): PerformerDataModel {
         return PerformerDataModel(
             name=input.name,
-        )
+            )
     }
 }

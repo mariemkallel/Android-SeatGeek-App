@@ -6,5 +6,4 @@ data class EventDataModel (
     val type: String,
     val datetime_local: String,
     val short_title: String,
-    //val image_attribution : String
     )

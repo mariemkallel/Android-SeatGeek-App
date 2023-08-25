@@ -8,7 +8,7 @@ data class EventWithPerformerPresentationModel(
     val type: String,
     val datetimeLocal: String,
     val shortTitle: String,
+    val formattedDate : String,
     val performers: List<PerformerDomainModel>,
-    //val image_attribution : String
 
 )

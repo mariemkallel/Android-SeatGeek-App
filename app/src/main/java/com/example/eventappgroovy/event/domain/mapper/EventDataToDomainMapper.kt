@@ -11,7 +11,6 @@ class EventDataToDomainMapper @Inject constructor() {
             type = input.type,
             datetimeLocal = input.datetime_local,
             shortTitle = input.short_title,
-           // image_attribution =input.image_attribution
 
         )
     }

@@ -58,7 +58,7 @@ class EventListFragment : Fragment() {
                     binding.progressBar.visibility = View.GONE
                     binding.eventRecyclerView.visibility = View.GONE
                     binding.errorTextView.visibility = View.VISIBLE
-                    binding.errorTextView.text = "Error: "
+                    binding.errorTextView.text = "Error: ${state.error.message}" // Display the error message
                 }
             }
         })

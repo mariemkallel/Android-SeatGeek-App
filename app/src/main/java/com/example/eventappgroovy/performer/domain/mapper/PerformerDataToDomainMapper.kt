@@ -6,7 +6,7 @@ import com.example.eventappgroovy.performer.domain.model.PerformerDomainModel
 class PerformerDataToDomainMapper {
     fun map(input: PerformerDataModel): PerformerDomainModel {
         return PerformerDomainModel(
-            name = input.name,
+            name = input.name
         )
     }
 }

@@ -13,7 +13,7 @@ package com.example.eventappgroovy.event.data.datasource.remote.model
         val time_tbd: Boolean,
         val short_title: String,
         val visible_until_utc: String,
-        //val image_attribution : String,
+        val image_attribution : String,
         //val stats: StatsRemoteModel,
         //val taxonomies: List<TaxonomyRemoteModel>,
         val url: String,

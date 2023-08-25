@@ -12,8 +12,7 @@ class EventRemoteToDataMapper @Inject constructor()  {
             id=input.id,
             type = input.type,
             datetime_local = input.datetime_local,
-            short_title = input.short_title
-           // image_attribution = input.image_attribution,
+            short_title = input.short_title,
 
         )
     }
